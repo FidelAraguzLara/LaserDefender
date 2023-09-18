@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2719782602693315168
+--- !u!1 &578843860628613525
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,22 +8,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8549794501041397451}
-  - component: {fileID: 1772188720484981945}
+  - component: {fileID: 578843860628613531}
+  - component: {fileID: 578843860628613524}
   m_Layer: 0
-  m_Name: LevelManager
+  m_Name: MeteorSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8549794501041397451
+--- !u!4 &578843860628613531
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2719782602693315168}
+  m_GameObject: {fileID: 578843860628613525}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -32,16 +32,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1772188720484981945
+--- !u!114 &578843860628613524
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2719782602693315168}
+  m_GameObject: {fileID: 578843860628613525}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27201200aebcda84084ebc652d3c3a0f, type: 3}
+  m_Script: {fileID: 11500000, guid: 400ee2bc107a9fe4882890e201233b84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delay: 2
+  objectPrefabs:
+  - {fileID: 8134207949193563195, guid: c8f1fb1a81426454c85a881606ad53bc, type: 3}
+  - {fileID: 8134207949193563195, guid: 2a85802046eb18e478ded80f1490f346, type: 3}
+  - {fileID: 8134207949193563195, guid: 4cdd57e2389a11646b5c25bb01a0ab5c, type: 3}
+  fixedVerticalPosition: 9
+  minHorizontalPosition: -4
+  maxHorizontalPosition: 4
+  minRotation: -45
+  maxRotation: 45
+  minSpeed: 2
+  maxSpeed: 5
+  spawnInterval: 1

@@ -15,14 +15,14 @@ public class Health : MonoBehaviour
     [SerializeField] bool m_PlayerDamage;
     CameraShake m_CameraShake;
     ScoreKeeper m_ScoreKeeper;
-    LevelManager m_LevelManager;
+    GameManager m_LevelManager;
 
     private void Awake()
     {
         m_ScoreKeeper = FindObjectOfType<ScoreKeeper>();
         m_AudioPlayer = FindObjectOfType<AudioPlayer>();
         m_CameraShake = Camera.main.GetComponent<CameraShake>();
-        m_LevelManager = FindObjectOfType<LevelManager>();
+        m_LevelManager = FindObjectOfType<GameManager>();
     }
 
     void OnTriggerEnter2D(Collider2D collision)

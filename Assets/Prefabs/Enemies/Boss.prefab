@@ -93,14 +93,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5868762217306646957}
-  - component: {fileID: -909837906791280245}
   - component: {fileID: -305534568310303409}
   - component: {fileID: -8765179849841086429}
   - component: {fileID: -7434578564119023295}
   - component: {fileID: 5244167206434073014}
   - component: {fileID: 2307768890101404515}
   m_Layer: 6
-  m_Name: Enemy
+  m_Name: Boss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -113,27 +112,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8134207949193563195}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8234800241855949396}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-909837906791280245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8134207949193563195}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3a02711047a9f344b5aad3c651c1615, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!50 &-305534568310303409
 Rigidbody2D:
   serializedVersion: 4
@@ -184,8 +171,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IsPlayer: 0
-  m_Health: 50
-  m_Score: 50
+  m_Health: 1000
+  m_Score: 1000
   m_ExplosionEffect: {fileID: 5538978768102519996, guid: b391f7124a6fc7445b74b3a0ac90d573, type: 3}
   m_ApplyShake: 0
   m_PlayerDamage: 0
@@ -201,7 +188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3852d809395c0354cb114a25d5320ab3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Damage: 25
+  m_Damage: 50
 --- !u!114 &2307768890101404515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,7 +201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81205bf9b54f2e84bbaa0ad2cead9d22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ProjectilePrefab: {fileID: 224984725401034577, guid: 03d04ddb206a5dd489f170349f3c7ac8, type: 3}
+  m_ProjectilePrefab: {fileID: 224984725401034577, guid: e0fac41a19b524e4b84b97bd8f2a74e2, type: 3}
   m_ProjectileSpeed: 10
   m_ProjectileLifeTime: 5
   m_BaseFireRate: 1

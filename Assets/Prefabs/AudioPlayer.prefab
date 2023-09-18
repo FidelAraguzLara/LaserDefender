@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2453332857964759627}
   - component: {fileID: 2453332857964759624}
-  - component: {fileID: 3683873029486222596}
+  - component: {fileID: 2908204089215575326}
   m_Layer: 0
   m_Name: AudioPlayer
   m_TagString: Untagged
@@ -48,7 +48,13 @@ MonoBehaviour:
   m_Shooting: {fileID: 8300000, guid: 33e6b8837fcfbe640b15170aeac2d738, type: 3}
   m_DamageTaken: {fileID: 8300000, guid: 5fa3c54a73f1c564bafc5d86bb42595d, type: 3}
   m_Volume: 0.4
---- !u!82 &3683873029486222596
+  m_AudioSource: {fileID: 0}
+  m_MainMenuOST: {fileID: 0}
+  m_Level1OST: {fileID: 0}
+  m_Level2OST: {fileID: 0}
+  m_Level3OST: {fileID: 0}
+  m_GameOverOST: {fileID: 0}
+--- !u!82 &2908204089215575326
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
