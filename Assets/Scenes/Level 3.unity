@@ -1160,6 +1160,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1905064508863796363, guid: ccccb70cdd3306240b5de627a5ccb63f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 564.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905064508863796363, guid: ccccb70cdd3306240b5de627a5ccb63f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 282.48
+      objectReference: {fileID: 0}
     - target: {fileID: 1905064509568464106, guid: ccccb70cdd3306240b5de627a5ccb63f, type: 3}
       propertyPath: m_Name
       value: CanvasLevelFinish
@@ -1252,12 +1260,36 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1905064509663634929, guid: ccccb70cdd3306240b5de627a5ccb63f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905064509663634929, guid: ccccb70cdd3306240b5de627a5ccb63f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 435.3975
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905064509663634929, guid: ccccb70cdd3306240b5de627a5ccb63f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.0025463
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905064509663634929, guid: ccccb70cdd3306240b5de627a5ccb63f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -86.05719
+      objectReference: {fileID: 0}
     - target: {fileID: 1905064509663634930, guid: ccccb70cdd3306240b5de627a5ccb63f, type: 3}
       propertyPath: m_text
       value: 'You are a legend
 
 
         The earth is safe'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905064509663634930, guid: ccccb70cdd3306240b5de627a5ccb63f, type: 3}
+      propertyPath: m_fontSize
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905064509663634930, guid: ccccb70cdd3306240b5de627a5ccb63f, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 65
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccccb70cdd3306240b5de627a5ccb63f, type: 3}
@@ -1291,7 +1323,7 @@ PrefabInstance:
     - target: {fileID: 2453332857964759624, guid: 8a674748b2823a0418689f04596d6e48, type: 3}
       propertyPath: m_MainMenuOST
       value: 
-      objectReference: {fileID: 8300000, guid: 4e135106e0bced245be9fae5bf79fbe5, type: 3}
+      objectReference: {fileID: 8300000, guid: 2d9a25a59e2c71045bfebb972a2062f7, type: 3}
     - target: {fileID: 2453332857964759625, guid: 8a674748b2823a0418689f04596d6e48, type: 3}
       propertyPath: m_Name
       value: AudioPlayer

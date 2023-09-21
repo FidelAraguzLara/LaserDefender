@@ -27,6 +27,7 @@ public class AudioPlayer : MonoBehaviour
     {
         ChangeBackgroundMusic(m_MainMenuOST);
 
+
         SceneManager.sceneLoaded += BackgroundMusic;
     }
 
